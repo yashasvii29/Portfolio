@@ -1,5 +1,116 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: linear-gradient(to right, #ff9966, #ff5e62);
-    color: white;
-    font-family: Arial, sans-serif;
+	background: black;
+	overflow-x: hidden;
+    
+}
+
+div {
+	position: relative;
+	height: 90vh;
+}
+
+/* #top p {
+	font-family: Oswald, sans-serif;
+	font-size: 40vh;
+	line-height: 0;
+	position: absolute;
+	bottom: 15vh;
+	left: 5vw;
+	transform: rotateZ(8deg);
+} */
+#first{
+    background-color: black;
+}
+
+#first::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: white;
+	border-right-color: white;
+}
+
+#second {
+	background: white;
+}
+
+#second::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: black;
+	border-left-color: black;
+}
+
+#third {
+	background: black;
+	/* height: 40vh; */
+}
+#third::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: white;
+	border-right-color: white;
+}
+#fourth{
+    background: white ;
+}
+
+
+#fourth::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: black;
+	border-left-color: black;
+}
+
+#fifth {
+	background: black;
+}
+
+#fifth::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: white;
+	border-left-color: white;
+}
+
+#sixth {
+    
+	background: white;
+	/* height: 40vh; */
 }
