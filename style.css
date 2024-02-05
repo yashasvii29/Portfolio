@@ -54,12 +54,12 @@ div {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color: black;
-	border-left-color: black;
+	border-bottom-color: gray;
+	border-left-color: gray;
 }
 
 #third {
-	background: black;
+	background: gray;
 	/* height: 40vh; */
 }
 #third::after {
@@ -114,3 +114,6 @@ div {
 	background: white;
 	/* height: 40vh; */
 }
+/* nav{
+	background-color: #46494c;
+} */
