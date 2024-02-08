@@ -10,10 +10,6 @@ body {
     
 }
 
-div {
-	position: relative;
-	height: 90vh;
-}
 
 /* #top p {
 	font-family: Oswald, sans-serif;
@@ -26,6 +22,8 @@ div {
 } */
 #first{
     background-color: black;
+	position: relative;
+	height: 90vh;
 }
 
 #first::after {
@@ -43,6 +41,8 @@ div {
 
 #second {
 	background: white;
+	position: relative;
+	height: 90vh;
 }
 
 #second::after {
@@ -60,6 +60,8 @@ div {
 
 #third {
 	background: gray;
+	position: relative;
+	height: 90vh;
 	/* height: 40vh; */
 }
 #third::after {
@@ -76,6 +78,8 @@ div {
 }
 #fourth{
     background: white ;
+	position: relative;
+	height: 90vh;
 }
 
 
@@ -92,11 +96,13 @@ div {
 	border-left-color: black;
 }
 
-#fifth {
+ #fifth {
 	background: black;
+	position: relative;
+	min-height: 20vh;
 }
 
-#fifth::after {
+/* #fifth::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -112,8 +118,10 @@ div {
 #sixth {
     
 	background: white;
+	position: relative;
+	height: 90vh; */
 	/* height: 40vh; */
-}
+/* } */ 
 /* nav{
 	background-color: #46494c;
 } */
