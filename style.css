@@ -54,14 +54,14 @@ body {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color: gray;
-	border-left-color: gray;
+	border-bottom-color: #ced4da;
+	border-left-color: #ced4da;
 }
 
 #third {
-	background: gray;
+	background: #ced4da;
 	position: relative;
-	height: 90vh;
+	height: 100vh;
 	/* height: 40vh; */
 }
 #third::after {
@@ -73,11 +73,11 @@ body {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color: white;
-	border-right-color: white;
+	border-bottom-color:  #ced4da;
+	border-right-color:  #ced4da;
 }
 #fourth{
-    background: white ;
+    background:  #ced4da;
 	position: relative;
 	height: 90vh;
 }
