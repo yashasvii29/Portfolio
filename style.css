@@ -54,14 +54,16 @@ body {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color: #ced4da;
-	border-left-color: #ced4da;
+	border-bottom-color:  #edede9;
+	border-left-color:  #edede9;
+	/* border-left-color:  #d9d9d9; */
+	
 }
 
 #third {
-	background: #ced4da;
+	background: #edede9;
 	position: relative;
-	height: 100vh;
+	height: 200vh;
 	/* height: 40vh; */
 }
 #third::after {
@@ -73,11 +75,11 @@ body {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color:  #ced4da;
-	border-right-color:  #ced4da;
+	border-bottom-color: #d9d9d9;
+	border-right-color: #d9d9d9;
 }
 #fourth{
-    background:  #ced4da;
+    background:  #d9d9d9;
 	position: relative;
 	height: 90vh;
 }
@@ -92,17 +94,17 @@ body {
 	border-style: solid;
 	border-color: transparent;
 	border-width: 10vh 50vw;
-	border-bottom-color: black;
-	border-left-color: black;
+	border-bottom-color: white;
+	border-left-color: white;
 }
 
  #fifth {
-	background: black;
+	background: white;
 	position: relative;
-	min-height: 20vh;
+	height: 150vh;
 }
 
-/* #fifth::after {
+ #fifth::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -110,18 +112,17 @@ body {
 	bottom: 0;
 	border-style: solid;
 	border-color: transparent;
-	border-width: 10vh 50vw;
-	border-bottom-color: white;
-	border-left-color: white;
+	/* border-width: 10vh 50vw; */
+	border-bottom-color: black;
+	border-right-color: black;
+	/* border-left-color:black; */
 }
 
 #sixth {
     
-	background: white;
+	background: black;
 	position: relative;
-	height: 90vh; */
-	/* height: 40vh; */
-/* } */ 
-/* nav{
-	background-color: #46494c;
-} */
+	min-height: 20vh; 
+	
+ } 
+ 
