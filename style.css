@@ -42,7 +42,8 @@ body {
 #second {
 	background: white;
 	position: relative;
-	height: 90vh;
+	padding-bottom: 15rem;
+	/* height: 90vh; */
 }
 
 #second::after {
